@@ -1,0 +1,35 @@
+test_bloqueo_de_servicio_confirmado (test_software_fj.PruebasSoftwareFJ.test_bloqueo_de_servicio_confirmado) ... ok
+test_cadena_de_excepcion_decimal (test_software_fj.PruebasSoftwareFJ.test_cadena_de_excepcion_decimal) ... ok
+test_calculo_descuento_e_impuesto (test_software_fj.PruebasSoftwareFJ.test_calculo_descuento_e_impuesto) ... ok
+test_calculo_normal (test_software_fj.PruebasSoftwareFJ.test_calculo_normal) ... ok
+test_cambio_correo_valido (test_software_fj.PruebasSoftwareFJ.test_cambio_correo_valido) ... ok
+test_clases_abstractas_no_son_instanciables (test_software_fj.PruebasSoftwareFJ.test_clases_abstractas_no_son_instanciables) ... ok
+test_cliente_rechaza_correo_invalido (test_software_fj.PruebasSoftwareFJ.test_cliente_rechaza_correo_invalido) ... ok
+test_cliente_rechaza_documento_invalido (test_software_fj.PruebasSoftwareFJ.test_cliente_rechaza_documento_invalido) ... ok
+test_cliente_rechaza_nombre_invalido (test_software_fj.PruebasSoftwareFJ.test_cliente_rechaza_nombre_invalido) ... ok
+test_cliente_rechaza_telefono_invalido (test_software_fj.PruebasSoftwareFJ.test_cliente_rechaza_telefono_invalido) ... ok
+test_cliente_valido_y_encapsulado (test_software_fj.PruebasSoftwareFJ.test_cliente_valido_y_encapsulado) ... ok
+test_confirmar_reserva (test_software_fj.PruebasSoftwareFJ.test_confirmar_reserva) ... ok
+test_descuento_fuera_de_rango (test_software_fj.PruebasSoftwareFJ.test_descuento_fuera_de_rango) ... ok
+test_efecto_de_confirmacion_fallida_no_altera_estado (test_software_fj.PruebasSoftwareFJ.test_efecto_de_confirmacion_fallida_no_altera_estado) ... ok
+test_impuesto_fuera_de_rango (test_software_fj.PruebasSoftwareFJ.test_impuesto_fuera_de_rango) ... ok
+test_liberar_servicio_tras_cancelacion (test_software_fj.PruebasSoftwareFJ.test_liberar_servicio_tras_cancelacion) ... ok
+test_log_registra_exito_y_error (test_software_fj.PruebasSoftwareFJ.test_log_registra_exito_y_error) ... ok
+test_no_deshabilitar_servicio_ocupado (test_software_fj.PruebasSoftwareFJ.test_no_deshabilitar_servicio_ocupado) ... ok
+test_no_persiste_clientes_ni_reservas (test_software_fj.PruebasSoftwareFJ.test_no_persiste_clientes_ni_reservas) ... ok
+test_parametros_invalidos_en_servicio (test_software_fj.PruebasSoftwareFJ.test_parametros_invalidos_en_servicio) ... ok
+test_procesar_reserva (test_software_fj.PruebasSoftwareFJ.test_procesar_reserva) ... ok
+test_rechaza_cancelacion_de_procesada (test_software_fj.PruebasSoftwareFJ.test_rechaza_cancelacion_de_procesada) ... ok
+test_rechaza_cliente_inexistente (test_software_fj.PruebasSoftwareFJ.test_rechaza_cliente_inexistente) ... ok
+test_rechaza_horas_invalidas (test_software_fj.PruebasSoftwareFJ.test_rechaza_horas_invalidas) ... ok
+test_rechaza_procesamiento_dos_veces (test_software_fj.PruebasSoftwareFJ.test_rechaza_procesamiento_dos_veces) ... ok
+test_rechaza_servicio_inexistente (test_software_fj.PruebasSoftwareFJ.test_rechaza_servicio_inexistente) ... ok
+test_registro_duplicado (test_software_fj.PruebasSoftwareFJ.test_registro_duplicado) ... ok
+test_servicio_deshabilitado (test_software_fj.PruebasSoftwareFJ.test_servicio_deshabilitado) ... ok
+test_servicio_duplicado (test_software_fj.PruebasSoftwareFJ.test_servicio_duplicado) ... ok
+test_servicios_polimorficos (test_software_fj.PruebasSoftwareFJ.test_servicios_polimorficos) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.021s
+
+OK

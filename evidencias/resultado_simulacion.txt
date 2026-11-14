@@ -1,0 +1,44 @@
+Software FJ - demostración de programación orientada a objetos
+Datos de ejemplo ficticios. El sistema no utiliza base de datos.
+
+01. CORRECTO         | Registrar cliente válido: Cliente 10000001: Ana Ruiz
+02. ERROR CONTROLADO | Rechazar correo inválido: Correo electrónico no válido.
+03. CORRECTO         | Registrar segundo cliente: Cliente 10000003: Luis Mora
+04. ERROR CONTROLADO | Rechazar documento duplicado: Ya existe un cliente con ese documento.
+05. CORRECTO         | Registrar sala: Sala S001: Sala de reuniones, capacidad 12
+06. ERROR CONTROLADO | Rechazar sala sin capacidad: Capacidad de sala: entero entre 1 y 100.
+07. CORRECTO         | Registrar equipo: Equipo E001: Proyector HD, tipo Audiovisual
+08. ERROR CONTROLADO | Rechazar tarifa negativa: Tarifa: debe ser mayor que cero.
+09. CORRECTO         | Registrar asesoría: Asesoría A001: Consultoría técnica, área Redes
+10. ERROR CONTROLADO | Rechazar especialidad vacía: Especialidad de asesoría es obligatorio y debe ser texto.
+11. CORRECTO         | Crear reserva de sala: Reserva 1 | Cliente 10000001 | Servicio S001 | 2 h | creada | Total: pendiente
+12. CORRECTO         | Confirmar reserva sala: Reserva 1 | Cliente 10000001 | Servicio S001 | 2 h | confirmada | Total: $100,000.00
+13. CORRECTO         | Crear segunda reserva de sala: Reserva 2 | Cliente 10000003 | Servicio S001 | 3 h | creada | Total: pendiente
+14. ERROR CONTROLADO | Rechazar confirmación por sala ocupada: Servicio ocupado por otra reserva confirmada.
+15. CORRECTO         | Cancelar primera reserva: Reserva 1 | Cliente 10000001 | Servicio S001 | 2 h | cancelada | Total: $100,000.00
+16. CORRECTO         | Confirmar segunda reserva: Reserva 2 | Cliente 10000003 | Servicio S001 | 3 h | confirmada | Total: $135,000.00
+17. CORRECTO         | Procesar segunda reserva: Reserva 2 | Cliente 10000003 | Servicio S001 | 3 h | procesada | Total: $135,000.00
+18. ERROR CONTROLADO | Rechazar procesamiento duplicado: Solo se puede procesar una reserva confirmada.
+19. CORRECTO         | Crear reserva de equipo: Reserva 3 | Cliente 10000001 | Servicio E001 | 4 h | creada | Total: pendiente
+20. CORRECTO         | Confirmar con descuento e IVA de ejemplo: Reserva 3 | Cliente 10000001 | Servicio E001 | 4 h | confirmada | Total: $128,520.00
+21. CORRECTO         | Procesar alquiler de equipo: Reserva 3 | Cliente 10000001 | Servicio E001 | 4 h | procesada | Total: $128,520.00
+22. CORRECTO         | Crear reserva de asesoría: Reserva 4 | Cliente 10000003 | Servicio A001 | 2 h | creada | Total: pendiente
+23. CORRECTO         | Confirmar asesoría: Reserva 4 | Cliente 10000003 | Servicio A001 | 2 h | confirmada | Total: $160,000.00
+24. CORRECTO         | Cancelar asesoría: Reserva 4 | Cliente 10000003 | Servicio A001 | 2 h | cancelada | Total: $160,000.00
+25. ERROR CONTROLADO | Rechazar servicio inexistente: Servicio no encontrado.
+26. ERROR CONTROLADO | Rechazar duración no permitida: Duración: número entero entre 1 y 8 horas.
+27. CORRECTO         | Deshabilitar sala: Sala S001: Sala de reuniones, capacidad 12
+28. ERROR CONTROLADO | Rechazar sala no disponible: No se pueden reservar servicios deshabilitados.
+29. CORRECTO         | Habilitar sala: Sala S001: Sala de reuniones, capacidad 12
+30. CORRECTO         | Crear nueva reserva de sala: Reserva 5 | Cliente 10000001 | Servicio S001 | 1 h | creada | Total: pendiente
+31. ERROR CONTROLADO | Rechazar descuento excesivo: Descuento: debe estar entre 0 y 100.
+32. CORRECTO         | Confirmar después de error corregido: Reserva 5 | Cliente 10000001 | Servicio S001 | 1 h | confirmada | Total: $47,500.00
+
+--- RESUMEN ---
+Total de operaciones: 32
+Operaciones correctas: 21
+Errores controlados: 11
+Clientes registrados: 2
+Servicios registrados: 3
+Reservas registradas: 5
+Se registraron los eventos y errores en logs/eventos.log
